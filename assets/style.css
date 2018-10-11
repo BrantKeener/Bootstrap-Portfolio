@@ -12,7 +12,9 @@ a {
     text-decoration: none;
 }
 
-.aboutun, .contactun, .portfoliun {
+.aboutun,
+.contactun,
+.portfoliun {
     border-style: none;
     background: none;
     margin: 0%;
@@ -40,13 +42,15 @@ a {
     background-image: url(../assets/oldroughwood.jpg);
 }
 
-.portfolio_content, .primary_content {
+.portfolio_content,
+.primary_content {
     background-color: #ffffff;
     margin: 2% 2% 5% 2%;
     padding: 1.5%;
     padding-left: 2%;
     padding-right: 2%;
 }
+
 .primary_content {
     background-color: #ffffff;
 }
@@ -103,11 +107,12 @@ a {
     padding-right: 0%;
 }
 
-.name_row, .email_row {
+.name_row,
+.email_row {
     padding-bottom: 2%;
 }
 
-#name_form{
+#name_form {
     margin-left: 4.8%;
 }
 
