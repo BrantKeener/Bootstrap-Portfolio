@@ -40,16 +40,19 @@ a {
     background-image: url(../assets/oldroughwood.jpg);
 }
 
-.primary_content {
+.portfolio_content, .primary_content {
     background-color: #ffffff;
     margin: 2% 2% 5% 2%;
     padding: 1.5%;
     padding-left: 2%;
     padding-right: 2%;
 }
+.primary_content {
+    background-color: #ffffff;
+}
 
 .contact_background {
-    padding-bottom: 8%;
+    padding-bottom: 7.5%;
 }
 
 .teal_font {
@@ -72,8 +75,32 @@ a {
     margin-bottom: 0%;
 }
 
-.name_row, .email_row, .message_row{
-    padding-left: 3%;
+.proj_img {
+    margin-bottom: 3%;
+    margin-left: 1%;
+    padding: 0%;
+    opacity: .5;
+}
+
+.proj_img:hover {
+    opacity: 1;
+}
+
+.proj_tag {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    width: 90%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+
+.message_label {
+    margin-right: 0%;
+    padding-right: 0%;
 }
 
 .name_row, .email_row {
@@ -89,7 +116,7 @@ a {
 }
 
 #message_form {
-    margin-left: 2%;
+    /* margin-left: 2%; */
     height: 150px;
     width: 50%;
 }
